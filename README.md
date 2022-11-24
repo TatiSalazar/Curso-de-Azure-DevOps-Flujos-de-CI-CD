@@ -66,3 +66,6 @@
 
 ## Pagina oficial 
 https://dev.azure.com/
+
+# Permisos, accesos, ay seguridad 
+https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions
