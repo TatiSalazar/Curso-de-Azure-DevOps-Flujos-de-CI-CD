@@ -69,3 +69,14 @@ https://dev.azure.com/
 
 # Permisos, accesos, ay seguridad 
 https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions
+
+## Creando Ramas y Pull Request
+* Básicamente un pull request es una petición para integrar nuestras propuestas o cambios de código a un proyecto.
+* Una buena práctica de ramas es no hacer PR directos a master, los desarrolladores debemos trabajar con una estructura logica que puede variar pero lo más (basico) común es:
+- Master
+- Release
+- Develop
+- Features
+- Hotfix
+* Features y Hotfix son las ramas de un desarrollador, los PR se hacen desde estas ramas hacia develop, los cuales deben ser revisados por un code reviewer.
+
