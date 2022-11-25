@@ -80,3 +80,17 @@ https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permi
 - Hotfix
 * Features y Hotfix son las ramas de un desarrollador, los PR se hacen desde estas ramas hacia develop, los cuales deben ser revisados por un code reviewer.
 
+## Pipeline
+* Básicamente un pipeline es una secuencia de comandos que hacen una ejecución de la aplicación, para poder comprobar que esta funcionando, compilando, que corran las pruebas unitarias, es decir que esta lista para poderse mover a la siguiente fase o ciclo de desarrollo que es la publicación.
+
+## Configurar el pipeline:
+* Se selecciona el framework
+* trigger: se dispara desde master
+* pool: el agente que se usa, ejemplo, ubuntu
+* steps, task: la primera tarea que se va a ejecutar
+
+* Pasos:
+* 1. Pipelines
+* 2. Azure Repos Git YAML
+* 3. Configure your pipeline : Node with React
+* 4. Review your pipeline YAML
